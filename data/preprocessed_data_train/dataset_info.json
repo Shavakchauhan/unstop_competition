@@ -1,0 +1,90 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "image": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "int64",
+      "_type": "Array3D"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "bbox": {
+      "shape": [
+        512,
+        4
+      ],
+      "dtype": "int64",
+      "_type": "Array2D"
+    },
+    "labels": {
+      "feature": {
+        "names": [
+          "B-BILL_TO_ADDRESS",
+          "B-BILL_TO_NAME",
+          "B-DUE_DATE",
+          "B-INVOICE_DATE",
+          "B-INVOICE_NUMBER",
+          "B-PAYMENT_INFO",
+          "B-SHIP_TO_ADDRESS",
+          "B-SHIP_TO_NAME",
+          "B-TOTAL_AMOUNT",
+          "E-BILL_TO_ADDRESS",
+          "E-BILL_TO_NAME",
+          "E-DUE_DATE",
+          "E-INVOICE_DATE",
+          "E-INVOICE_NUMBER",
+          "E-PAYMENT_INFO",
+          "E-SHIP_TO_ADDRESS",
+          "E-SHIP_TO_NAME",
+          "E-TOTAL_AMOUNT",
+          "I-BILL_TO_ADDRESS",
+          "I-BILL_TO_NAME",
+          "I-DUE_DATE",
+          "I-INVOICE_DATE",
+          "I-PAYMENT_INFO",
+          "I-SHIP_TO_ADDRESS",
+          "I-SHIP_TO_NAME",
+          "I-TOTAL_AMOUNT",
+          "O",
+          "S-BILL_TO_ADDRESS",
+          "S-BILL_TO_NAME",
+          "S-DUE_DATE",
+          "S-INVOICE_DATE",
+          "S-INVOICE_NUMBER",
+          "S-PAYMENT_INFO",
+          "S-SHIP_TO_ADDRESS",
+          "S-TOTAL_AMOUNT",
+          "S-TOTAL_TAX_AMOUNT"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
